@@ -1,0 +1,32 @@
+@import "../../index.scss";
+
+
+.projContainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.projtitle{
+    margin: 0;
+    padding: 5px;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.projdesc{
+    margin: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.4rem;
+    opacity: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+}
+
+.links{
+    height: 60px;
+    width: 60px;
+    padding-left: 20px;
+    filter: invert(16%) sepia(31%) saturate(4506%) hue-rotate(194deg) brightness(90%) contrast(96%);
+}

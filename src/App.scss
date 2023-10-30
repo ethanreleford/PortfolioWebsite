@@ -1,0 +1,18 @@
+@import "./index.scss";
+
+
+body{
+  margin: 0;
+  padding: 0;
+  border: 0 solid transparent;
+  font-family: 'Lora', serif;
+  
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: $secondary-color;
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}
+

@@ -1,0 +1,35 @@
+@import "../../index.scss";
+
+.mainTitle{
+    margin: 0;
+    padding: 5px;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subtitle{
+    margin: 0;
+    padding: 5px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.data{
+    margin: 0;
+    padding: 5px;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right{
+    position: absolute;
+    right: 5%;
+}
+
+.subdata{
+    margin: 0;
+    padding: 5px;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
