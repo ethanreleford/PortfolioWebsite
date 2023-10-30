@@ -26,12 +26,6 @@ function skills() {
         <h1 className='projdesc'>● PostMan, SwaggerHub, Visual Studio, Git 
         </h1>
       </div>
-      <div className='projContainer'>
-        <h1 className='subtitle'></h1>
-        <h1 className='projdesc'>
-          
-        </h1>
-      </div>
     </div>
   )
 }
