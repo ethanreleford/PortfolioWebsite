@@ -8,14 +8,17 @@ function SideBar() {
       <ul>
         <li>Home</li>
         <li>Education</li>
-        <li>Experience</li>
+
         <li>Projects</li>
         <li>Skills</li>
         <li>About</li>
-        <li>Contact</li>
+
       </ul>
     </div>
   );
 }
 
+
+//        <li>Experience</li>
+//        <li>Contact</li>
 export default SideBar;

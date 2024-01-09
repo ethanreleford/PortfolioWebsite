@@ -10,13 +10,29 @@ function projects() {
         <h1 className='mainTitle'>
             Projects
         </h1>
+         <div className='projContainer'>
+            <h1 className='projtitle'>LeetSocial | In Progress
+            <a href = "https://github.com/thedeclancarter/LeetSocial" target="_blank" rel ="noreferrer">
+            <img className = "links" src = {imageList[2]} alt= {"atom"} />
+            </a>
+            <a href = "http://www.leetsocial.com/" target="_blank" rel ="noreferrer">
+            <img className = "links" src = {imageList[7]} alt= {"atom"} />
+            </a>
+            </h1>
+            <h1 className='subtitle'>MERN Stack Web Application</h1>
+            <h1 className='data'>Technologies: JavaScript, HTML, CSS, MongoDB, API's, SwaggerHub, PostMan
+            </h1>
+            <h1 className='projdesc'>● Developed and implemented MERN stack web application where users can see their leetcode friends statistics on coding problems
+            </h1>
+            <h1 className='projdesc'>● Created custom APIs and integrated open-source APIs from external sources, including those from the main LeetCode website
+            </h1>
+            <h1 className='projdesc'>● Interacted with MongoDB, contributing to data retrieval and display on the front end of the application
+            </h1>
+        </div>
         <div className='projContainer'>
             <h1 className='projtitle'>NeatBook 
             <a href = "https://github.com/ethanreleford/NeatBook" target="_blank" rel ="noreferrer">
             <img className = "links" src = {imageList[2]} alt= {"atom"} />
-            </a>
-            <a href = "https://github.com/ethanreleford/Weather-Application" target="_blank" rel ="noreferrer">
-            <img className = "links" src = {imageList[7]} alt= {"atom"} />
             </a>
             </h1>
             <h1 className='subtitle'>LAMP Stack Web Application</h1>
@@ -58,11 +74,8 @@ function projects() {
         </div>
             <div className='projContainer'>
             <h1 className='projtitle'>DeerMan | In Progress
-            <a href = "https://github.com/ethanreleford" target="_blank" rel ="noreferrer">
+            <a href = "https://github.com/ChrisThenKross/DeerMan" target="_blank" rel ="noreferrer">
             <img className = "links" src = {imageList[2]} alt= {"atom"} />
-            </a>
-            <a href = "https://github.com/ethanreleford" target="_blank" rel ="noreferrer">
-            <img className = "links" src = {imageList[7]} alt= {"atom"} />
             </a>
             </h1>
             <h1 className='subtitle'>3D Unity Game</h1>
@@ -72,21 +85,6 @@ function projects() {
             <h1 className='projdesc'>● Developed a 3D hack and slash genre game 
             where the player can interact with abilites and game objects throughout the map
             to fight their way past all the enemies.
-            </h1>
-        </div>
-            <div className='projContainer'>
-            <h1 className='projtitle'>LeetSocial | In Progress
-            <a href = "https://github.com/ethanreleford" target="_blank" rel ="noreferrer">
-            <img className = "links" src = {imageList[2]} alt= {"atom"} />
-            </a>
-            <a href = "https://github.com/ethanreleford" target="_blank" rel ="noreferrer">
-            <img className = "links" src = {imageList[7]} alt= {"atom"} />
-            </a>
-            </h1>
-            <h1 className='subtitle'>MERN Stack Web Application</h1>
-            <h1 className='data'>Technologies: JavaScript, HTML, CSS
-            </h1>
-            <h1 className='projdesc'>● 
             </h1>
         </div>
     </div>
