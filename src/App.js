@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Sidebar from "./components/sidebar/SideBar.js";
 import './App.scss';
 import Home from './components/home/home.js';
@@ -9,16 +9,25 @@ import About from './components/about/about.js';
 import Contact from './components/contact/contact.js';
 
 function App() {
+  const [activeSection, setActiveSection] = useState('Home');
+
+  useEffect(() => {
+    // Scroll to the element with the activeSection ID when it changes
+    const element = document.getElementById(activeSection);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [activeSection]);
+
   return (
-    <body>   
-      <Sidebar/>
-      <Home/>
-      <Education/>
-      <Projects/>
-      <Skills/>
-      <About/>
-    </body>
-    
+    <div className="app-container">
+      <Sidebar setActiveSection={setActiveSection} />
+      <Home id="Home" />
+      <Education id="Education" />
+      <Projects id="Projects" />
+      <Skills id="Skills" />
+      <About id="About" />
+    </div>
   );
 }
 
