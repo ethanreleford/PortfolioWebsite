@@ -3,6 +3,7 @@ import './about.scss';
 
 function about() {
   return (
+    <div id = 'about'>
     <div className='container3 info'>
       <h1 className='mainTitle'>About</h1>
       <div className='desc descs'>
@@ -21,6 +22,7 @@ function about() {
        web development and mobile app creation to machine learning and data analysis. This diverse experience has allowed me to
       adapt to different challenges and cultivate an understanding of software development.
       </div>
+    </div>
     </div>
   )
 }

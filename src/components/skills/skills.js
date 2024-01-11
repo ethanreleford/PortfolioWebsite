@@ -3,6 +3,7 @@ import './skills.scss';
 
 function skills() {
   return (
+    <div id = 'skills'>
     <div className='container3 info'>
       <h1 className='mainTitle'>Skills</h1>
       <div className='projContainer'>
@@ -26,6 +27,7 @@ function skills() {
         <h1 className='projdesc'>● PostMan, SwaggerHub, Visual Studio, Git 
         </h1>
       </div>
+    </div>
     </div>
   )
 }

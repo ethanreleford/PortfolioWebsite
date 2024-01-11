@@ -6,6 +6,7 @@ import imageList from '../../imgs/imageList.js'
 
 function home() {
   return (
+    <div id="home">
     <div className='container1 info'>
         <h1 className='name'>Ethan Releford</h1>
         <h2 className='subtitle'>Computer Science Student at the University of Central Florida</h2>
@@ -16,6 +17,8 @@ function home() {
         <a href = "https://www.linkedin.com/in/ethan-releford/" target="_blank"  rel ="noreferrer"><img className = "professional" src = {imageList[8]} alt= {"atom"}/></a>
 
     </div>
+    </div>
+    
   )
 }
 

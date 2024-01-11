@@ -6,17 +6,15 @@ import imageList from '../../imgs/imageList.js'
 
 function projects() {
   return (
+    <div id = 'projects'>
     <div className='container3 info'>
         <h1 className='mainTitle'>
             Projects
         </h1>
          <div className='projContainer'>
-            <h1 className='projtitle'>LeetSocial | In Progress
+            <h1 className='projtitle'>LeetSocial 
             <a href = "https://github.com/thedeclancarter/LeetSocial" target="_blank" rel ="noreferrer">
             <img className = "links" src = {imageList[2]} alt= {"atom"} />
-            </a>
-            <a href = "http://www.leetsocial.com/" target="_blank" rel ="noreferrer">
-            <img className = "links" src = {imageList[7]} alt= {"atom"} />
             </a>
             </h1>
             <h1 className='subtitle'>MERN Stack Web Application</h1>
@@ -73,7 +71,7 @@ function projects() {
             </h1>
         </div>
             <div className='projContainer'>
-            <h1 className='projtitle'>DeerMan | In Progress
+            <h1 className='projtitle'>DeerMan 
             <a href = "https://github.com/ChrisThenKross/DeerMan" target="_blank" rel ="noreferrer">
             <img className = "links" src = {imageList[2]} alt= {"atom"} />
             </a>
@@ -87,6 +85,7 @@ function projects() {
             to fight their way past all the enemies.
             </h1>
         </div>
+    </div>
     </div>
   )
 }
