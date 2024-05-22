@@ -13,13 +13,13 @@ function skills() {
         </h1>
       </div>
       <div className='projContainer'>
-        <h1 className='subtitle'>Frameworks:</h1>
-        <h1 className='projdesc'>● React, Express.js, BootStrap, Node.js, Unity
+        <h1 className='subtitle'>Project Framework Components:</h1>
+        <h1 className='projdesc'>● React, Express.js, BootStrap, Node.js, Unity, Unreal
         </h1>
       </div>
       <div className='projContainer'>
         <h1 className='subtitle'>Database:</h1>
-        <h1 className='projdesc'>● MongoDB
+        <h1 className='projdesc'>● MongoDB, SQL
         </h1>
       </div>
       <div className='projContainer'>
