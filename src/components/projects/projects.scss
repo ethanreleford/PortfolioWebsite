@@ -1,6 +1,5 @@
 @import "../../index.scss";
 
-
 .projContainer{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -28,5 +27,5 @@
     height: 60px;
     width: 60px;
     padding-left: 20px;
-    filter: invert(16%) sepia(31%) saturate(4506%) hue-rotate(194deg) brightness(90%) contrast(96%);
+    filter: brightness(0) saturate(100%) invert(0%) sepia(74%) saturate(7500%) hue-rotate(244deg) brightness(103%) contrast(103%);
 }
